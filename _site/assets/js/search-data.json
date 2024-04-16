@@ -1,0 +1,51 @@
+{"0": {
+    "doc": "gaining access",
+    "title": "How to gain access",
+    "content": "Requesting access . @TODO@ . | Get yourself in irods collaboration | . One-time-action: Creating a SRAM token: . | Go to https://sram.tudelft.nl and click login: | . | Select your institute (chances are that it is Delft University of Technology) and login with your credentials and (likely) a second factor. | Select the tab “Collaborations” and then the line “TU Delft iRods”. If this is your first encounter with SRAM, it is likely that you are enrolled in only one collaboration. | Click on the tab “Service tokens” and then on the button “Create service token” . | Make sure you copy the service token that is displayed in to your password manager (you do have one right?) and give the token a name and then click “Save”. After clicking save you will never be able to retrieve the actual token again (if you forget it you can create a new one). | . ",
+    "url": "/access.html#how-to-gain-access",
+    
+    "relUrl": "/access.html#how-to-gain-access"
+  },"1": {
+    "doc": "gaining access",
+    "title": "gaining access",
+    "content": " ",
+    "url": "/access.html",
+    
+    "relUrl": "/access.html"
+  },"2": {
+    "doc": "using icommands",
+    "title": "Connecting to iRODS through icommands",
+    "content": "Creating your iRODS environment file . { \"irods_client_server_negotiation\": \"request_server_negotiation\", \"irods_encryption_algorithm\": \"AES-256-CBC\", \"irods_encryption_key_size\": 32, \"irods_encryption_num_hash_rounds\": 16, \"irods_encryption_salt_size\": 8, \"irods_port\": 1247, \"irods_host\": \"irods.tudelft.nl\", \"irods_zone_name\": \"tud\" } . Running iinit . ",
+    "url": "/icommands.html#connecting-to-irods-through-icommands",
+    
+    "relUrl": "/icommands.html#connecting-to-irods-through-icommands"
+  },"3": {
+    "doc": "using icommands",
+    "title": "using icommands",
+    "content": " ",
+    "url": "/icommands.html",
+    
+    "relUrl": "/icommands.html"
+  },"4": {
+    "doc": "irods@tudelft",
+    "title": "irods@tudelft",
+    "content": "irods@tudelft provides tools for data management . | irods@tudelft . | Before connecting to iRODS . | Requesting access . | One-time-action: Creating a SRAM token: | . | . | Connecting to iRODS through icommands . | Creating your iRODS environment file | Running iinit | . | . | . ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"5": {
+    "doc": "irods@tudelft",
+    "title": "Before connecting to iRODS",
+    "content": "Before you can connect to iRODS, you need to make iRODS aware of your existence. This is done through a number of (one-time) steps. Requesting access . @TODO@ . | Get yourself in irods collaboration | . One-time-action: Creating a SRAM token: . | Go to https://sram.tudelft.nl and click login: | . | Select your institute (chances are that it is Delft University of Technology) and login with your credentials and (likely) a second factor. | Select the tab “Collaborations” and then the line “TU Delft iRods”. If this is your first encounter with SRAM, it is likely that you are enrolled in only one collaboration. | Click on the tab “Service tokens” and then on the button “Create service token” . | Make sure you copy the service token that is displayed in to your password manager (you have one right?) and give the token a name and then click “Save”. After clicking save you will never be able to retrieve the actual token again (if you forget it you can create a new one). | . ",
+    "url": "/#before-connecting-to-irods",
+    
+    "relUrl": "/#before-connecting-to-irods"
+  },"6": {
+    "doc": "irods@tudelft",
+    "title": "Connecting to iRODS through icommands",
+    "content": "Creating your iRODS environment file . { \"irods_client_server_negotiation\": \"request_server_negotiation\", \"irods_encryption_algorithm\": \"AES-256-CBC\", \"irods_encryption_key_size\": 32, \"irods_encryption_num_hash_rounds\": 16, \"irods_encryption_salt_size\": 8, \"irods_port\": 1247, \"irods_host\": \"irods.tudelft.nl\", \"irods_zone_name\": \"tud\" } . Running iinit . ",
+    "url": "/#connecting-to-irods-through-icommands",
+    
+    "relUrl": "/#connecting-to-irods-through-icommands"
+  }
+}
